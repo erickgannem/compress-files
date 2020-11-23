@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-compress-files",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --harmony-top-level-await index.js",
+    "debug": "DEBUG=app* node --harmony-top-level-await index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "debug": "^4.3.1"
+  }
+}
